@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Title Fetcher",
+    "description": "Fetches and displays the title of the current tab.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/title.png",
+        "48": "icons/title.png",
+        "128": "icons/title.png"
+      }
+    }
+  }
+  
